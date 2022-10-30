@@ -1,6 +1,6 @@
 <h3 align="center">SATUS</h3><div align="center">
   
-Please try it out & review the concept.
+Please try it out & review the concept/s.
 
   Productive for 600 000+ active users in ImprovedTube & several [Code-for-Charity/Extensions](https://github.com/code-for-charity/ImprovedTube-for-YouTube/blob/master/.github/README.md#history-manager--dark-mode---unlock-me-custom-user-agent-regex-replace)
   
