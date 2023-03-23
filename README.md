@@ -163,7 +163,11 @@
 	
  - Please try it & review it!
 
--  Productive for 600 000+ active users in ImprovedTube & several [Code-for-Charity/Extensions](https://github.com/code-for-charity/ImprovedTube-for-YouTube/blob/master/.github/README.md#history-manager--dark-mode---unlock-me-custom-user-agent-regex-replace) (_editing happens in ImprovedTube [yet](https://stackoverflow.com/questions/4611512/is-there-a-way-to-make-git-pull-automatically-update-submodules))_)
+   -  Productive for 600 000+ active users in ImprovedTube & several [Code-for-Charity/Extensions](https://github.com/code-for-charity/ImprovedTube-for- YouTube/blob/master/.github/README.md#history-manager--dark-mode---unlock-me-custom-user-agent-regex-replace). (_edit / contribute there ([yet](https://stackoverflow.com/questions/4611512/is-there-a-way-to-make-git-pull-automatically-update-submodules))_).  Sadly the original author is gone after several years.
+      - **Wishes / Roadmap:** 
+        - [ ] Advanced GUI (Multirange slider, etc)
+        - [ ] Handling json-xml-html-csv as one (interchangeable) <br> (CSV is compact, pretty for a lot of structured/permanent data)
+        - [ ] Real/strong search, probably including third party JS lib, indexedDB & SQL  
 
 <div align="center">
  <br> <img height="200px" alt="Satus Logo" src="https://user-images.githubusercontent.com/25022245/198879210-090216d0-c02e-49b7-9c8d-bd648fa8b39b.png">
