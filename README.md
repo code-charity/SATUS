@@ -1,4 +1,4 @@
-<table align="right"><tr></tr> <td><pre>/*------------satus.JS--------------------------
+<table align="right"><tr></tr> <td><pre>/*------------satus.JS------------
 >>> CORE
 # Global variable
 # Animations duration
@@ -171,7 +171,7 @@
 
 (_editing happens in ImprovedTube [yet](https://stackoverflow.com/questions/4611512/is-there-a-way-to-make-git-pull-automatically-update-submodules))_)
 
-<table><tr></tr> <td><pre>/*------------satus.CSS--------------------------
+<table><tr></tr> <td><pre>/*------------satus.CSS------------
 # SCROLLBAR
 # ANIMATIONS
 >>> THEMES
