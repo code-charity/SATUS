@@ -1,15 +1,31 @@
 satus.components.colorPicker = function(component, skeleton) {
-  var component_content = component.createChildElement('div', 'content'),
-    component_value = component.createChildElement('span', 'value');
+  component.childrenContainer = component.createChildElement('div', 'content');
+																	
 
-  component.childrenContainer = component_content;
-  component.valueElement = component_value;
+  component.color = (function(element) {
+    var array;
 
-  component.className = 'satus-button';
+    Object.defineProperty(element, 'value', {
+      get: function() {
+        return array;
+      },
+      set: function(value) {
+        array = value;
+
+        this.parentNode.storage.value = array;
+
+        element.style.backgroundColor = 'rgb(' + value.join(',') + ')';
+      }
+    });
+
+    element.value = component.storage.value || component.skeleton.value || [0, 0, 0];
+
+    return element;
+  })(component.createChildElement('span', 'value'));
 
   component.addEventListener('click', function() {
-    var rgb = this.rgb,
-      hsl = satus.color.rgbToHsl(rgb),
+					   
+    var hsl = satus.color.rgbToHsl(this.color.value),
       s = hsl[1] / 100,
       l = hsl[2] / 100;
 
@@ -32,13 +48,17 @@ satus.components.colorPicker = function(component, skeleton) {
           'backgroundColor': 'hsl(' + hsl[0] + 'deg, 100%, 50%)'
         },
         on: {
-          mousedown: function() {
+          mousedown: function(event) {
+            if (event.button !== 0) {
+              return false;
+            }
+
             var palette = this,
               rect = this.getBoundingClientRect(),
               cursor = this.children[0];
 
             function mousemove(event) {
-              var hsl = palette.skeleton.parentSkeleton.storage.value,
+              var hsl = palette.skeleton.parentSkeleton.value,
                 x = event.clientX - rect.left,
                 y = event.clientY - rect.top,
                 s;
@@ -87,7 +107,7 @@ satus.components.colorPicker = function(component, skeleton) {
           component: 'div',
           class: 'satus-color-picker__color',
           style: {
-            'backgroundColor': 'rgb(' + this.rgb.join(',') + ')'
+            'backgroundColor': 'rgb(' + this.color.value.join(',') + ')'
           }
         },
         hue: {
@@ -97,14 +117,14 @@ satus.components.colorPicker = function(component, skeleton) {
           value: hsl[0],
           max: 360,
           on: {
-            change: function() {
+            input: function() {
               var modal = this.skeleton.parentSkeleton.parentSkeleton,
-                hsl = modal.storage.value;
+                hsl = modal.value;
 
-              hsl[0] = this.values[0];
+              hsl[0] = this.storage.value;
 
               this.previousSibling.style.backgroundColor = 'hsl(' + hsl[0] + 'deg,' + hsl[1] + '%, ' + hsl[2] + '%)';
-              this.parentSkeletonNode.previousSibling.style.backgroundColor = 'hsl(' + hsl[0] + 'deg, 100%, 50%)';
+              this.parentNode.previousSibling.style.backgroundColor = 'hsl(' + hsl[0] + 'deg, 100%, 50%)';
             }
           }
         }
@@ -119,13 +139,13 @@ satus.components.colorPicker = function(component, skeleton) {
           on: {
             click: function() {
               var modal = this.skeleton.parentSkeleton.parentSkeleton,
-                component = modal.parentSkeleton;
+                component = modal.parentElement;
 
-              component.rgb = component.skeleton.value;
+              component.color.value = component.skeleton.value || [0, 0, 0];
 
-              component.storage.value = component.rgb;
+													  
 
-              component.valueElement.style.backgroundColor = 'rgb(' + component.rgb.join(',') + ')';
+																									
 
               modal.rendered.close();
             }
@@ -146,13 +166,13 @@ satus.components.colorPicker = function(component, skeleton) {
           on: {
             click: function() {
               var modal = this.skeleton.parentSkeleton.parentSkeleton,
-                component = modal.parentSkeleton;
+                component = modal.parentElement;
 
-              component.rgb = satus.color.hslToRgb(modal.storage.value);
+              component.color.value = satus.color.hslToRgb(modal.value);
 
-              component.storage.value = component.rgb;
+													  
 
-              component.valueElement.style.backgroundColor = 'rgb(' + component.rgb.join(',') + ')';
+																									
 
               modal.rendered.close();
             }
@@ -162,9 +182,9 @@ satus.components.colorPicker = function(component, skeleton) {
     }, this.baseProvider.layers[0]);
   });
 
-  component.addEventListener('render', function() {
-    component.rgb = this.storage.value || [0, 100, 50];
+												   
+													   
 
-    component_value.style.backgroundColor = 'rgb(' + component.rgb.join(',') + ')';
-  });
+																				   
+	 
 };
