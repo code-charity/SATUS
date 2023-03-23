@@ -1,6 +1,4 @@
-
-<table align="right"><tr></tr> <td>
-<pre>/*--------------------------------------
+<table align="right"><tr></tr> <td><pre>/*------------satus.JS--------------------------
 >>> CORE
 # Global variable
 # Animations duration
@@ -173,4 +171,82 @@
 
 (_editing happens in ImprovedTube [yet](https://stackoverflow.com/questions/4611512/is-there-a-way-to-make-git-pull-automatically-update-submodules))_)
 
-
+<table><tr></tr> <td><pre>/*------------satus.CSS--------------------------
+# SCROLLBAR
+# ANIMATIONS
+>>> THEMES
+>>> NORMALIZE
+>>> MODAL
+# Container
+# Scrim
+# Surface
+# Variants
+	# Vertical menu
+# CONTAINER
+# SCRIM
+# SURFACE
+# VARIANTS
+# VERTICAL MENU
+>>> GRID
+>>> TEXT FIELD
+# Parts
+    # Container
+    # Input
+    # 
+# Syntax highlighting
+    # Regular expression
+# MULTILINE: FALSE
+# SYNTAX HIGHLIGHTING
+# REGULAR EXPRESSION
+>>> CHART
+>>> SELECT
+>>> DIVIDER
+>>> SECTION
+# Variants
+	# Align start
+	# Align end
+	# Card
+# Media
+# ALIGN START
+# ALIGN END
+# CARD
+# MEDIA
+>>> BASE
+>>> ALERT
+# Media
+# MEDIA
+>>> INPUT
+>>> MAIN
+>>> SIDEBAR
+>>> LAYERS
+>>> LIST
+>>> COLOR PICKER:
+# Button
+# Modal
+# BUTTON
+# MODAL
+>>> SPAN
+>>> BUTTON
+# Base
+# Basic
+# Icon
+# BASE
+# BASIC
+# ICON
+>>> HEADER
+>>> RADIO
+>>> SLIDER
+>>> TABS
+>>> SHORTCUT:
+# 
+>>> CHECKBOX
+>>> SWITCH
+# Container
+# Track
+# Thumb
+# CONTAINER
+# TRACK
+# THUMB
+>>> CONTEXT MENU
+>>> SORTABLE
+------------------------------------*/</pre> </td></table>
