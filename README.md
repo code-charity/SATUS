@@ -166,7 +166,7 @@
    -  Productive for 600 000+ active users in ImprovedTube & several [Code-for-Charity/Extensions](https://github.com/code-for-charity/ImprovedTube-for- YouTube/blob/master/.github/README.md#history-manager--dark-mode---unlock-me-custom-user-agent-regex-replace). (_edit / contribute there ([yet](https://stackoverflow.com/questions/4611512/is-there-a-way-to-make-git-pull-automatically-update-submodules))_).  Sadly the original author is gone after several years.
       - **Wishes / Roadmap:** 
         - [ ] Advanced GUI (Multirange slider, etc)
-        - [ ] Handling json-xml-html-csv as one (interchangeable) <br> (CSV is compact, pretty for a lot of structured/permanent data)
+        - [ ] Handling json-xml-csv-html as one. interchangeable <br> (CSV is compact, pretty for a lot of structured/permanent data)
         - [ ] Real/strong search, probably including third party JS lib, indexedDB & SQL  
 
 <div align="center">
