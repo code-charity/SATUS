@@ -159,7 +159,7 @@
 >>> SEARCH
 ------------------------------------*/</pre> </td></table>
 
-<h1 align=center> <code><code><a href="https://github.com/code-for-charity/ImprovedTube-for-YouTube/blob/master/JS/satus.js">satus.js</a></code></code>, <code><a href="https://github.com/code-for-charity/ImprovedTube-for-YouTube/blob/master/JS/satus.css">satus.css</a></code></h1>
+<h1 align=center> <code><code><a href="https://github.com/code-for-charity/ImprovedTube-for-YouTube/blob/master/js%26css/satus.js">satus.js</a></code></code>, <code><a href="https://github.com/code-for-charity/ImprovedTube-for-YouTube/blob/master/js%26css/satus.css">satus.css</a></code></h1>
 	
  - Please try it & review it!
 
