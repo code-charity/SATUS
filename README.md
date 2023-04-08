@@ -27,7 +27,6 @@
 # Localization
 # Log
 # Text
-
 >>> MODAL
 # Confirm
 # CONFIRM
