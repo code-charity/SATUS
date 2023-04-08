@@ -4,9 +4,9 @@
 -------------------------------------------------
 # GLOBAL VARIABLE:
 # BASICS: camelize()   snakelize() 
-	 isset  log()
-		 sort()
-		 data()    	 
+	  isset()  log()
+	  sort()
+	  data()    	 
 # DOM: append()  
 	  setAttributes() 
 	  createElement()  
