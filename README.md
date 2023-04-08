@@ -84,7 +84,7 @@ RGB2HSL  HUE2RGB   HSL2RGB
 				Touch	Connection
 -------------------------------------------------
 >>> SEARCH
-// TO-DO or integrate with JS search libs
+// TO-DO or integrate with JS search 'SQL' lib
 -----------------------------------------------*/
 </pre> </td></table>
 
