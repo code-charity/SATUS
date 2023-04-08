@@ -1,114 +1,92 @@
-<table align="right"><tr></tr> <td><pre>/*------------satus.JS------------
->>> CORE
-# Global variable
-# Animations duration
-# Append
-# Attr
-# Camelize
-# Snakelize
-# Class
-# Create element
-# CSS
-# Empty
-# Element index
-# Events
-# Get property
-# Is
-# On
-# Render
-# Sort
-# Storage
-	# Clear
-	# Get
-	# Import
-	# Set
-	# Remove
-	# On changed
-# Localization
-# Log
-# Text
->>> COMPONENTS
-# MODAL
-	# CONFIRM
-# GRID
-# TEXT FIELD
-# CHART
-	# BAR
-# SELECT
-# DIVIDER
-# SECTION
-# BASE
-# ALERT
-# TIME
-# SIDEBAR
-# LAYERS
-# LIST
-# COLOR PICKER
-# RADIO
-# SLIDER
-# TABS
-# SHORTCUT
-# CHECKBOX
-# SWITCH
->>> CONTEXT MENU
->>> SORTABLE
->>> MANIFEST
+<table align="right"><tr></tr> <td><pre>
+/*------------satus.JS---------------------------
+>>> 1. CORE
+-------------------------------------------------
+#GLOBAL VARIABLE:
+#BASICS: camelize()   snakelize() 
+	 isset  log()
+		 sort()
+		 data()    	 
+#DOM: append()  
+	  setAttributes() 
+	  createElement()  
+	  empty()
+	  elementIndex()  
+#CSS: css()
+	  addClass() 
+	  satus.style()
+	  getAnimationDuration()	  
+#CRYPTION (async)  
+	  encrypt() 
+	  decrypt() 	
+Events.on()
+Events.trigger()
+fetch() 
+ getProperty()
+indexOf()    
+ toIndex()
+# IS: isArray()
+	 isElement()
+	 isNumber()
+# ON: on()
+parentify()
+prepend()
+properties()
+remove()
+render()
+# STORAGE
+storage.clear()
+storage.get()
+storage.import()
+storage.remove()
+storage.set()
+storage.onchanged = function()
+last()
+# LOCALIZATION
+locale.get()
+locale.import = function() 
+  //satus.locale.import();
+text()
+ // We always try to run values as functions? 
+  // isFunction()  appears 6 times in satus.js
+-------------------------------------------------
+>>> 2. COMPONENTS
+components.modal()
+components.modal.confirm
+components.grid
+components.textField
+		   chart	chart.bar  
+		   select
+components.divider()	section 
+		   alert	time	sidebar 
+		   layers
+		   list
+		   colorPicker
+		   radio	slider
+		   tabs
+		   shortcut
+		   checkbox	switch
+-------------------------------------------------
 >>> COLOR:
-# String to array
-# RGB to HSL
-# HUE to RGB
-# HSL to RGB
-# STRING TO ARRAY
-# RGB TO HSL
-# HUE TO RGB
-# HSL TO RGB
+String to array
+RGB2HSL  HUE2RGB   HSL2RGB
+-------------------------------------------------
 >>> USER
-# OS
-    # Name
-    # Bitness
-# Browser
-    # Name
-    # Version
-    # Platform
-    # Manifest
-    # Languages
-    # Cookies
-    # Flash
-    # Java
-    # Audio
-    # Video
-    # WebGL
-# Device
-    # Screen
-    # RAM
-    # GPU
-    # Cores
-    # Touch
-    # Connection
-# OS
-# NAME
-# BITNESS
-# BROWSER
-# NAME
-# VERSION
-# PLATFORM
-# MANIFEST
-# LANGUAGES
-# COOKIES
-# FLASH
-# JAVA
-# AUDIO
-# VIDEO
-# WEBGL
-# HARDWARE
-# SCREEN
-# RAM
-# GPU
-# CORES
-# TOUCH
-# CONNECTION
+# HARDWARE and SOFTWARE values
+	# OS: Name	Bitness
+	# Browser:	Name	Version	Platform
+				Manifest	Languages
+				Cookies
+				Flash	Java	Audio
+				Video WebGL
+	# Device:   Screen
+				RAM	GPU	Cores
+				Touch	Connection
+-------------------------------------------------
 >>> SEARCH
-------------------------------------*/</pre> </td></table>
+// TO-DO or integrate with JS search libs
+-----------------------------------------------*/
+</pre> </td></table>
 
 <h1 align=center> <code><code><a href="https://github.com/code-for-charity/ImprovedTube-for-YouTube/blob/master/js%26css/satus.js">satus.js</a></code></code>, <code><a href="https://github.com/code-for-charity/ImprovedTube-for-YouTube/blob/master/js%26css/satus.css">satus.css</a></code></h1>
 	
