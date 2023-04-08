@@ -2,21 +2,21 @@
 /*------------satus.JS---------------------------
 >>> 1. CORE
 -------------------------------------------------
-#GLOBAL VARIABLE:
-#BASICS: camelize()   snakelize() 
+# GLOBAL VARIABLE:
+# BASICS: camelize()   snakelize() 
 	 isset  log()
 		 sort()
 		 data()    	 
-#DOM: append()  
+# DOM: append()  
 	  setAttributes() 
 	  createElement()  
 	  empty()
 	  elementIndex()  
-#CSS: css()
+# CSS: css()
 	  addClass() 
 	  satus.style()
 	  getAnimationDuration()	  
-#CRYPTION (async)  
+# CRYPTION (async)  
 	  encrypt() 
 	  decrypt() 	
 Events.on()
