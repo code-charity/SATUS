@@ -73,15 +73,15 @@ RGB2HSL  HUE2RGB   HSL2RGB
 -------------------------------------------------
 >>> USER
 # HARDWARE and SOFTWARE values
-	# OS: Name	Bitness
-	# Browser:	Name	Version	Platform
-				Manifest	Languages
-				Cookies
-				Flash	Java	Audio
-				Video WebGL
+	# OS:      Name	Bitness
+	# Browser: Name	Version	Platform
+		Manifest	Languages
+		Cookies
+		Flash	Java	Audio
+		Video WebGL
 	# Device:   Screen
-				RAM	GPU	Cores
-				Touch	Connection
+		RAM	GPU	Cores
+		Touch	Connection
 -------------------------------------------------
 >>> SEARCH
 // TO-DO or integrate with JS search 'SQL' lib
