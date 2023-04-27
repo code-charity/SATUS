@@ -94,11 +94,9 @@ RGB2HSL  HUE2RGB   HSL2RGB
 
    -  Productive for 600 000+ active users in ImprovedTube & several Code-for-Charity Extensions (_editing there ([yet](https://stackoverflow.com/questions/4611512/is-there-a-way-to-make-git-pull-automatically-update-submodules))_).  We lost the original author after x years.
       - **Wishes / Roadmap:** 
-        - [ ] Advanced GUI (Multirange slider, etc)  
+       - [ ] Advanced GUI (Multirange slider, etc)  
        - [ ] Real/strong search, probably including third party JS lib for indexedDB & understanding SQL 
-	
-	We dont want to reinvent any wheels. If anything exists in an efficient, tiny JS lib or node npm, it can be included, not re-invented 
-	
+       - [ ] We dont want to reinvent any wheels. If anything exists in an efficient, tiny JS lib or node npm, it can be included, not re-invented 
         - [ ] Handling json-xml-csv-html as one. interchangeable <br> (CSV is compact, pretty for a lot of structured/permanent data)
 
 <div align="center">
