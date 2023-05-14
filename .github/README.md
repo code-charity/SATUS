@@ -8,7 +8,23 @@
   - [ ] Data: Handling json2html2csv2... as one. Interchangeable <br> (CSV is compact, pretty for structured, permanent data)
     - [ ] integrating with [github.com/d3](https://github.com/d3/d3 )  (=charts/data-journalism) <br> (+justifying our own charting?)
 
-</tr> <td><pre>
+</tr></td></table> 
+<h1 align=center> <code><code><a href="https://github.com/code-for-charity/ImprovedTube-for-YouTube/blob/master/js%26css/satus.js">satus.js</a></code></code> & <code><a href="https://github.com/code-for-charity/ImprovedTube-for-YouTube/blob/master/js%26css/satus.css">satus.css</a></code></h1>
+	
+ - Please try it & review it!
+
+   -  Productive for 600 000+ active users <br>  in a [Youtube Improver](https://github.com/code-charity/youtube) & several Extensions. 
+      - Shared Repo yet for [minimalism](https://stackoverflow.com/questions/4611512/is-there-a-way-to-make-git-pull-automatically-update-submodules)
+      -  We lost the original author after x years.
+
+<div align="center">
+ <br> <img height="100px" alt="Satus Logo" src="https://user-images.githubusercontent.com/25022245/198879210-090216d0-c02e-49b7-9c8d-bd648fa8b39b.png"></div><br>
+
+
+
+<table align="right"><td>
+
+<pre>
 /*------------satus.JS---------------------------
 >>> 1. CORE
 -------------------------------------------------
@@ -98,17 +114,6 @@ RGB2HSL  HUE2RGB   HSL2RGB
 -----------------------------------------------*/
 </pre> </td></table>
 
-<h1 align=center> <code><code><a href="https://github.com/code-for-charity/ImprovedTube-for-YouTube/blob/master/js%26css/satus.js">satus.js</a></code></code> & <code><a href="https://github.com/code-for-charity/ImprovedTube-for-YouTube/blob/master/js%26css/satus.css">satus.css</a></code></h1>
-	
- - Please try it & review it!
-
-   -  Productive for 600 000+ active users <br>  in a [Youtube Improver](https://github.com/code-charity/youtube) & several Extensions. 
-      - Shared Repo yet for [minimalism](https://stackoverflow.com/questions/4611512/is-there-a-way-to-make-git-pull-automatically-update-submodules)
-      -  We lost the original author after x years.
-
-<div align="center">
- <br> <img height="100px" alt="Satus Logo" src="https://user-images.githubusercontent.com/25022245/198879210-090216d0-c02e-49b7-9c8d-bd648fa8b39b.png"></div><br>
-
 <h2> <code><code>🎁</code></code>Our Extensions: </h2>
 
 [**<code>History Manager</code>**](https://chrome.google.com/webstore/detail/unblob-alpha/odognhgojidbcgconbcipmgffjcmfaoj)<a href="https://github.com/code-for-charity/history-manager"><img src="github.png" height="18px">(alpha)</a>  **Filter:** <code>[**unFreeze me**](https://chrome.google.com/webstore/detail/ctrl-f-freedom-%20-right-cl/ijngdimmjkngoglcjaheoadciaalbafl " - Unlock your Right-Click, Ctrl+F, Selection anywhere!")</code>[<img src="github.png" height="18px">](https://github.com/code-for-charity/unlock-keyboard-and-mouse)  & <code>[**Dark Mode**](https://chrome.google.com/webstore/detail/dark-mode/declgfomkjdohhjbcfemjklfebflhefl " - Universal dark-mode!") </code>[<img src="github.png" height="18px">](https://github.com/code-for-charity/dark-mode)  
@@ -117,7 +122,7 @@ RGB2HSL  HUE2RGB   HSL2RGB
 <br><b>Home:</b> (Start Page tabs <a href="https://github.com/code-for-charity/start-page"><img src="github.png" height="18px"></a> <i> to be uploaded </i>), [`TextEditor`](https://chrome.google.com/webstore/detail/text-editor/bnbgafdjiinlgnjaedmfaablklnafpka) [<img src="github.png" height="18px">](https://github.com/code-for-charity/Editor), [`ToDo`](https://chrome.google.com/webstore/detail/to-do/mniboiicchcpkffcdlaocnkfpbdihgii)[<img src="github.png" height="18px">](https://github.com/code-for-charity/todo)  
   **Development:**  [**`Satus`**](https://github.com/code-for-charity/satus) (Our JS library) |  [**`WebGL.js`**](https://github.com/code-for-charity/webgl.js) - WebGL Library | [endless grid](https://github.com/code-for-charity/pluviam), [CodeEditor](https://github.com/code-for-charity/code-editor), [TE](https://github.com/code-for-charity/theme-engine), <del> [Viscum Player](https://github.com/code-for-charity/viscum-player)</del> - video.js?)  <br>
 
-## All of the above is meant/allowed to be source for growing Satus. (All that can be repurosed)
+### All of the above is meant/allowed to be source for growing Satus. (All that can be repurosed)
 
 <table><tr></tr> <td><pre>/*------------satus.CSS------------
 # SCROLLBAR
