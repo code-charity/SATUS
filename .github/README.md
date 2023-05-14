@@ -118,7 +118,7 @@ RGB2HSL  HUE2RGB   HSL2RGB
 <br><b>Home:</b> (Start Page tabs <a href="https://github.com/code-for-charity/start-page"><img src="github.png" height="18px"></a> <i> to be uploaded </i>), [`TextEditor`](https://chrome.google.com/webstore/detail/text-editor/bnbgafdjiinlgnjaedmfaablklnafpka) [<img src="github.png" height="18px">](https://github.com/code-for-charity/Editor), [`ToDo`](https://chrome.google.com/webstore/detail/to-do/mniboiicchcpkffcdlaocnkfpbdihgii)[<img src="github.png" height="18px">](https://github.com/code-for-charity/todo)  
   **Development:**  [**`Satus`**](https://github.com/code-for-charity/satus) (Our JS library) |  [**`WebGL.js`**](https://github.com/code-for-charity/webgl.js) - WebGL Library | [endless grid](https://github.com/code-for-charity/pluviam), [CodeEditor](https://github.com/code-for-charity/code-editor), [TE](https://github.com/code-for-charity/theme-engine), <del> [Viscum Player](https://github.com/code-for-charity/viscum-player)</del> - video.js?)  <br>
 
-### <code><code>🎁</code></code> All of the above is meant/allowed to be source for growing Satus. (All that can be repurosed)
+<h3> <code><code>🎁</code></code> All of the above is meant/allowed to be source for growing Satus. </h3> (All that's meaningful to repurose)
 
 <table><tr></tr> <td><pre>/*------------satus.CSS------------
 # SCROLLBAR
