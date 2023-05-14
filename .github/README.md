@@ -13,11 +13,11 @@
 
 - Productive for 600 000+ active users <br>  in a [Youtube Improver](https://github.com/code-charity/youtube) & several Extensions. 
 - Please try it & review it!
-  - Shared Repo yet for [minimalism](https://stackoverflow.com/questions/4611512/is-there-a-way-to-make-git-pull-automatically-update-submodules)
-  - We lost the original author after X years.
+- Shared Repo yet for [minimalism](https://stackoverflow.com/questions/4611512/is-there-a-way-to-make-git-pull-automatically-update-submodules)
+- We lost the original author after X years.
 
 <div align="center">
- <br> </div><br>
+ <br> </div><br><br><br>
 
 
 <table align="right"><tr></tr><td><pre>
