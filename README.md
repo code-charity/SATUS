@@ -1,173 +1,186 @@
-
-<table align="right"><tr></tr> <td>
-<pre>/*--------------------------------------
->>> CORE
-# Global variable
-# Animations duration
-# Append
-# Attr
-# Camelize
-# Snakelize
-# Class
-# Create element
-# CSS
-# Empty
-# Element index
-# Events
-# Get property
-# Is
-# On
-# Render
-# Sort
-# Storage
-	# Clear
-	# Get
-	# Import
-	# Set
-	# Remove
-	# On changed
-# Localization
-# Log
-# Text
-# GLOBAL VARIABLE
-# ANIMATION DURATION
-# APPEND
-# ATTR
-# CAMELIZE
-# SNAKELIZE
-# CLASS
-# CLONE
-# CREATE ELEMENT
-# CSS
-# CRYPT
-# DECRYPTION
-# ENCRYPTION
-# DATA
-# EMPTY
-# ELEMENT INDEX
-# EVENTS
-# ON
-# TRIGGER
-# FETCH
-# GET PROPERTY
-# INDEX OF
-# TO INDEX
-# ISSET
-# IS
-# ON
-# PARENTIFY
-# PREPEND
-# PROPERTIES
-# REMOVE
-# RENDER
-# SORT
+<table align="right"><tr></tr> <td><pre>
+/*------------satus.JS---------------------------
+>>> 1. CORE
+-------------------------------------------------
+# GLOBAL VARIABLE:
+# BASICS: camelize()   snakelize() 
+	  isset()  log()
+	  sort()
+	  data()    	 
+# DOM: append()  
+	  setAttributes() 
+	  createElement()  
+	  empty()
+	  elementIndex()  
+# CSS: css()
+	  addClass() 
+	  satus.style()
+	  getAnimationDuration()	  
+# CRYPTION (async)  
+	  encrypt() 
+	  decrypt() 	
+Events.on()
+Events.trigger()
+fetch() 
+ getProperty()
+indexOf()    
+ toIndex()
+# IS: isArray()
+	 isElement()
+	 isNumber()
+# ON: on()
+parentify()
+prepend()
+properties()
+remove()
+render()
 # STORAGE
-# CLEAR
-# GET
-# IMPORT
-# REMOVE
-# SET
-# ON CHANGED
-# LAST
+storage.clear()
+storage.get()
+storage.import()
+storage.remove()
+storage.set()
+storage.onchanged = function()
+last()
 # LOCALIZATION
-# GET
-# IMPORT
-# LOG
-# STYLE
-# TEXT
->>> MODAL
-# Confirm
-# CONFIRM
->>> GRID
->>> TEXT FIELD
->>> CHART
-# Core
-	# Bar
-# CORE
-# BAR
->>> SELECT
->>> DIVIDER
->>> SECTION
->>> BASE
->>> ALERT
->>> TIME
->>> SIDEBAR
->>> LAYERS
->>> LIST
->>> COLOR PICKER
->>> RADIO
->>> SLIDER
->>> TABS
->>> SHORTCUT
->>> CHECKBOX
->>> SWITCH
->>> CONTEXT MENU
->>> SORTABLE
->>> MANIFEST
+locale.get()
+locale.import = function() 
+  //satus.locale.import();
+text()
+ // We always try to run values as functions? 
+  // isFunction()  appears 6 times in satus.js
+-------------------------------------------------
+>>> 2. COMPONENTS
+components.modal()
+components.modal.confirm
+components.grid
+components.textField
+		   chart	chart.bar  
+		   select
+components.divider()	section 
+		   alert	time	sidebar 
+		   layers
+		   list
+		   colorPicker
+		   radio	slider
+		   tabs
+		   shortcut
+		   checkbox	switch
+-------------------------------------------------
 >>> COLOR:
-# String to array
-# RGB to HSL
-# HUE to RGB
-# HSL to RGB
-# STRING TO ARRAY
-# RGB TO HSL
-# HUE TO RGB
-# HSL TO RGB
+String to array
+RGB2HSL  HUE2RGB   HSL2RGB
+-------------------------------------------------
 >>> USER
-# OS
-    # Name
-    # Bitness
-# Browser
-    # Name
-    # Version
-    # Platform
-    # Manifest
-    # Languages
-    # Cookies
-    # Flash
-    # Java
-    # Audio
-    # Video
-    # WebGL
-# Device
-    # Screen
-    # RAM
-    # GPU
-    # Cores
-    # Touch
-    # Connection
-# OS
-# NAME
-# BITNESS
-# BROWSER
-# NAME
-# VERSION
-# PLATFORM
-# MANIFEST
-# LANGUAGES
-# COOKIES
-# FLASH
-# JAVA
-# AUDIO
-# VIDEO
-# WEBGL
-# HARDWARE
-# SCREEN
-# RAM
-# GPU
-# CORES
-# TOUCH
-# CONNECTION
+# HARDWARE and SOFTWARE values
+	# OS:      Name	Bitness
+	# Browser: Name	Version	Platform
+		Manifest	Languages
+		Cookies
+		Flash	Java	Audio
+		Video WebGL
+	# Device:   Screen
+		RAM	GPU	Cores
+		Touch	Connection
+-------------------------------------------------
 >>> SEARCH
-------------------------------------*/</pre> </td></table>
+// TO-DO or integrate with JS search 'SQL' lib
+-----------------------------------------------*/
+</pre> </td></table>
 
-<h3 align="center">SATUS</h3>
-  
-- Please try it out & review the concept/s.
+<h1 align=center> <code><code><a href="https://github.com/code-for-charity/ImprovedTube-for-YouTube/blob/master/js%26css/satus.js">satus.js</a></code></code>, <code><a href="https://github.com/code-for-charity/ImprovedTube-for-YouTube/blob/master/js%26css/satus.css">satus.css</a></code></h1>
+	
+ - Please try it & review it!
 
--  Productive for 600 000+ active users in ImprovedTube & several [Code-for-Charity/Extensions](https://github.com/code-for-charity/ImprovedTube-for-YouTube/blob/master/.github/README.md#history-manager--dark-mode---unlock-me-custom-user-agent-regex-replace)
+   -  Productive for 600 000+ active users in ImprovedTube & several Code-for-Charity Extensions (_editing there ([yet](https://stackoverflow.com/questions/4611512/is-there-a-way-to-make-git-pull-automatically-update-submodules))_).  We lost the original author after x years.
+      - **Wishes / Roadmap:** 
+       - [ ] Advanced GUI (Multirange slider, etc)  
+       - [ ] Real/strong search, probably including third party JS lib for indexedDB & understanding SQL 
+       - [ ] We dont want to reinvent any wheels. If anything exists in an efficient, tiny JS lib or node npm, it can be included, not re-invented 
+        - [ ] Handling json-xml-csv-html as one. interchangeable <br> (CSV is compact, pretty for a lot of structured/permanent data)
 
 <div align="center">
  <br> <img height="200px" alt="Satus Logo" src="https://user-images.githubusercontent.com/25022245/198879210-090216d0-c02e-49b7-9c8d-bd648fa8b39b.png">
+</div><br>
 
-</div>
+
+
+<table><tr></tr> <td><pre>/*------------satus.CSS------------
+# SCROLLBAR
+# ANIMATIONS
+>>> THEMES
+>>> NORMALIZE
+>>> MODAL
+# Container
+# Scrim
+# Surface
+# Variants
+	# Vertical menu
+# CONTAINER
+# SCRIM
+# SURFACE
+# VARIANTS
+# VERTICAL MENU
+>>> GRID
+>>> TEXT FIELD
+# Parts
+    # Container
+    # Input
+    # 
+# Syntax highlighting
+    # Regular expression
+# MULTILINE: FALSE
+# SYNTAX HIGHLIGHTING
+# REGULAR EXPRESSION
+>>> CHART
+>>> SELECT
+>>> DIVIDER
+>>> SECTION
+# Variants
+	# Align start
+	# Align end
+	# Card
+# Media
+# ALIGN START
+# ALIGN END
+# CARD
+# MEDIA
+>>> BASE
+>>> ALERT
+# Media
+# MEDIA
+>>> INPUT
+>>> MAIN
+>>> SIDEBAR
+>>> LAYERS
+>>> LIST
+>>> COLOR PICKER:
+# Button
+# Modal
+# BUTTON
+# MODAL
+>>> SPAN
+>>> BUTTON
+# Base
+# Basic
+# Icon
+# BASE
+# BASIC
+# ICON
+>>> HEADER
+>>> RADIO
+>>> SLIDER
+>>> TABS
+>>> SHORTCUT:
+# 
+>>> CHECKBOX
+>>> SWITCH
+# Container
+# Track
+# Thumb
+# CONTAINER
+# TRACK
+# THUMB
+>>> CONTEXT MENU
+>>> SORTABLE
+------------------------------------*/</pre> </td></table>
