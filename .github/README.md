@@ -1,4 +1,14 @@
-<table align="right"><tr></tr> <td><pre>
+<table align="right"><tr><td><h2>Roadmap</h2> <!-- The list below only stays formatted when there is a line break above --> 
+
+	
+ - [ ] Advanced GUI <br> (Multirange slider, etc. Making use of desk viewports)  
+ - [ ] Real/strong search, probably including 3rd-party JS-lib <br> (for indexedDB, for understanding SQL, ...)
+ - [ ] We don't want to reinvent **any** wheels. If anything exists <br> (in an efficient JS lib or node npm,) it shall be **included**)
+    - [ ] integrating Victor's work (see below)
+  - [ ] Data: Handling json2html2csv2... as one. Interchangeable <br> (CSV is compact, pretty for structured, permanent data)
+    - [ ] integrating with [github.com/d3](https://github.com/d3/d3 )  (=charts/data-journalism) <br> (+justifying our own charting?)
+
+</tr> <td><pre>
 /*------------satus.JS---------------------------
 >>> 1. CORE
 -------------------------------------------------
@@ -88,18 +98,12 @@ RGB2HSL  HUE2RGB   HSL2RGB
 -----------------------------------------------*/
 </pre> </td></table>
 
-<h1 align=center> <code><code><a href="https://github.com/code-for-charity/ImprovedTube-for-YouTube/blob/master/js%26css/satus.js">satus.js</a></code></code>, <code><a href="https://github.com/code-for-charity/ImprovedTube-for-YouTube/blob/master/js%26css/satus.css">satus.css</a></code></h1>
+<h1 align=center> <code><code><a href="https://github.com/code-for-charity/ImprovedTube-for-YouTube/blob/master/js%26css/satus.js">satus.js</a></code></code> & <code><a href="https://github.com/code-for-charity/ImprovedTube-for-YouTube/blob/master/js%26css/satus.css">satus.css</a></code></h1>
 	
  - Please try it & review it!
 
-   -  Productive for 600 000+ active users in ImprovedTube & several Code-for-Charity Extensions (_editing there ([yet](https://stackoverflow.com/questions/4611512/is-there-a-way-to-make-git-pull-automatically-update-submodules))_).  We lost the original author after x years.
-      - **Wishes / Roadmap:** 
-       - [ ] Advanced GUI (Multirange slider, etc)  
-       - [ ] Real/strong search, probably including third party JS lib for indexedDB & understanding SQL 
-       - [ ] We dont want to reinvent any wheels. If anything exists in an efficient, tiny JS lib or node npm, it shall be **included**, not re-invented.
-          - [ ] integrating charts & data journalism: [github.com/d3](https://github.com/d3/d3 )
- 	  - [ ] integrating Victor's work (see below)
-       - [ ] Data: Handling json2html2csv2... as one. Interchangeable <br> (CSV is compact, pretty for a lot of structured/permanent data)
+   -  Productive for 600 000+ active users in ImprovedTube <br> & several Code-for-Charity Extensions. (Shared Repo: [yet](https://stackoverflow.com/questions/4611512/is-there-a-way-to-make-git-pull-automatically-update-submodules))_(minimalism)).  
+   -  We lost the original author after x years.
 
 <div align="center">
  <br> <img height="100px" alt="Satus Logo" src="https://user-images.githubusercontent.com/25022245/198879210-090216d0-c02e-49b7-9c8d-bd648fa8b39b.png"></div><br>
@@ -112,7 +116,8 @@ RGB2HSL  HUE2RGB   HSL2RGB
 <br>**Video / Media:** (**to be integrated in ImprovedTube**...) <code>[**Looper**](https://chrome.google.com/webstore/detail/looper/hlnfnoahfgnjnbkdckfnolacbmoknlmi)</code>[<img src="github.png" height="18px">](https://github.com/code-for-charity/looper) <code>[**Frame by Frame**](https://chrome.google.com/webstore/detail/frame-by-frame/cclnaabdfgnehogonpeddbgejclcjneh)</code>[<img src="github.png" height="18px">](https://github.com/code-for-charity/frame-by-frame) [`unBlob`](https://chrome.google.com/webstore/detail/unblob-alpha/odognhgojidbcgconbcipmgffjcmfaoj)[<img src="github.png" height="18px">](https://github.com/code-for-charity/unblob "please fix/adopt me!") (<i><del>Equalizer[<img src="github.png" height="18px">](https://github.com/code-for-charity/equalizer)</del></i>)
 <br><b>Home:</b> (Start Page tabs <a href="https://github.com/code-for-charity/start-page"><img src="github.png" height="18px"></a> <i> to be uploaded </i>), [`TextEditor`](https://chrome.google.com/webstore/detail/text-editor/bnbgafdjiinlgnjaedmfaablklnafpka) [<img src="github.png" height="18px">](https://github.com/code-for-charity/Editor), [`ToDo`](https://chrome.google.com/webstore/detail/to-do/mniboiicchcpkffcdlaocnkfpbdihgii)[<img src="github.png" height="18px">](https://github.com/code-for-charity/todo)  
   **Development:**  [**`Satus`**](https://github.com/code-for-charity/satus) (Our JS library) |  [**`WebGL.js`**](https://github.com/code-for-charity/webgl.js) - WebGL Library | [endless grid](https://github.com/code-for-charity/pluviam), [CodeEditor](https://github.com/code-for-charity/code-editor), [TE](https://github.com/code-for-charity/theme-engine), <del> [Viscum Player](https://github.com/code-for-charity/viscum-player)</del> - video.js?)  <br>
-	
+
+## All of the above is meant/allowed to be source for growing Satus. (All that can be repurosed)
 
 <table><tr></tr> <td><pre>/*------------satus.CSS------------
 # SCROLLBAR
