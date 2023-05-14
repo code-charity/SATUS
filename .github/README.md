@@ -21,10 +21,7 @@
  <br> <img height="100px" alt="Satus Logo" src="https://user-images.githubusercontent.com/25022245/198879210-090216d0-c02e-49b7-9c8d-bd648fa8b39b.png"></div><br>
 
 
-
-<table align="right"><td>
-
-<pre>
+<table align="right"><tr></tr><td><pre>
 /*------------satus.JS---------------------------
 >>> 1. CORE
 -------------------------------------------------
