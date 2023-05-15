@@ -3,7 +3,7 @@
 	
  - [ ] Advanced GUI <br> (Multirange slider, etc. Making use of desk viewports)  
  - [ ] Real/strong search, probably including 3rd-party JS-lib <br> (for indexedDB, for understanding SQL, ...)
- - [ ] We don't want to reinvent **any** wheels. If anything exists <br> (in an efficient JS lib or node npm,) it shall be **included**)
+ - [ ] We don't want to reinvent **any** wheels. If anything exists <br> (in an efficient JS lib or node npm, it shall be **included**)
     - [ ] integrating Victor's work (see below)
   - [ ] Data: Handling json2html2csv2... as one. Interchangeable <br> (CSV is compact, pretty for structured, permanent data)
     - [ ] integrating with [github.com/d3](https://github.com/d3/d3 )  (=charts/data-journalism) <br> (+justifying our own charting?)
