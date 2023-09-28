@@ -1,6 +1,5 @@
 <table align="right"><tr><td><h2>Roadmap</h2> <!-- The list below only stays formatted when there is a line break above --> 
 
-	
  - [ ] Advanced GUI <br> (Multirange slider, etc. Making use of desk viewports)  
  - [ ] Real/strong search, probably including 3rd-party JS-lib <br> (for indexedDB, for understanding SQL, ...)
  - [ ] We don't want to reinvent **any** wheels. If anything exists <br> (in an efficient JS lib or node npm, it shall be **included**)
@@ -17,7 +16,7 @@
 - We lost the original author after X years.
 
 <div align="center">
- <br> </div><br><br><br>
+ <br> </div><br><br><br><br><br>
 
 
 <table align="right"><tr></tr><td><pre>
