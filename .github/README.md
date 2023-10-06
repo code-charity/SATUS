@@ -17,8 +17,7 @@
 - Used by: [Several extensions ](https://github.com/code-charity/youtube#-our-extensions ) 
      - All of these were written by the same author & meant to be source for growing Satus / repurposing part of their code.
 
-
-
+  <div align="center" > </div>
 <table align="right"><tr></tr><td><pre>
 /*------------satus.JS---------------------------
 >>> 1. CORE
