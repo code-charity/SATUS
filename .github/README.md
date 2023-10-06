@@ -15,7 +15,7 @@
 - Shared Repo yet for [minimalism](https://stackoverflow.com/questions/4611512/is-there-a-way-to-make-git-pull-automatically-update-submodules)
 - We lost the original author after X years.
 - Used by: [Several extensions ](https://github.com/code-charity/youtube#-our-extensions ) 
-     - All of these were written by the same author <br> & meant to be source for growing Satus. <br> (All ttheir code meaningful to repurpose)
+     - All of these were written by the same author & meant to be source for growing Satus / repurposing part of their code.
 
 
 
