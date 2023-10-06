@@ -14,9 +14,9 @@
 - Please try it & review it!
 - Shared Repo yet for [minimalism](https://stackoverflow.com/questions/4611512/is-there-a-way-to-make-git-pull-automatically-update-submodules)
 - We lost the original author after X years.
+- Used by: [Several extensions ](https://github.com/code-charity/youtube#-our-extensions ) 
+     - All of these were written by the same author <br> & meant to be source for growing Satus. <br> (All ttheir code meaningful to repurpose)
 
-<div align="center">
- <br> <br><br><br><br><br></div>
 
 
 <table align="right"><tr></tr><td><pre>
@@ -108,21 +108,6 @@ RGB2HSL  HUE2RGB   HSL2RGB
 // TO-DO or integrate with JS search 'SQL' lib
 -----------------------------------------------*/
 </pre> </td></table>
-
-<h2> Our Extensions: </h2>
-
-
-
-[**<code>History Manager</code>**](https://chrome.google.com/webstore/detail/unblob-alpha/odognhgojidbcgconbcipmgffjcmfaoj)<a href="https://github.com/code-for-charity/history-manager"><img src="github.png" height="18px">(alpha)</a>  **Filter:** <code>[**unFreeze me**](https://chrome.google.com/webstore/detail/ctrl-f-freedom-%20-right-cl/ijngdimmjkngoglcjaheoadciaalbafl " - Unlock your Right-Click, Ctrl+F, Selection anywhere!")</code>[<img src="github.png" height="18px">](https://github.com/code-for-charity/unlock-keyboard-and-mouse)  & <code>[**Dark Mode**](https://chrome.google.com/webstore/detail/dark-mode/declgfomkjdohhjbcfemjklfebflhefl " - Universal dark-mode!") </code>[<img src="github.png" height="18px">](https://github.com/code-for-charity/dark-mode)  
-<b> Research:</b> [<code><b> Ultimate Regex (Search & Replace, markup to come?)</b>](https://chrome.google.com/webstore/detail/regex-search/pmihaiejckejbpjdnildimfkpcpnohlo)("Ctrl+F+Shift")</code>[<img src="github.png" height="15px">](https://github.com/code-for-charity/regex) ([`Regex Replace`](https://chrome.google.com/webstore/detail/regex-replace/ihcaaefaoebbcklmolaflgllidfamfgm)<a href="https://github.com/code-for-charity/ultimate-REGEX-extension/issues/3" title="No Repo. We can upload it from Webstore (partly merged"><img src="github.png" height="18px"></a>) **Browser:** [**`Custom user agent`**](https://chrome.google.com/webstore/detail/custom-user-agent/ncgbkkljbaojkhljombpjejedphfhdjj)[<img src="github.png" height="18px">](https://github.com/code-for-charity/user-agent) &  [`auto-scroll`](https://chrome.google.com/webstore/detail/auto-scroll/kpfalbhnppkbokafignonoppegdndlch "(missing in Linux)")<a href="https://github.com/code-for-charity/auto-scroll"><img src="github.png" height="18px"></a>
-<br>**Video / Media:** (**to be integrated in ImprovedTube**...) <code>[**Looper**](https://chrome.google.com/webstore/detail/looper/hlnfnoahfgnjnbkdckfnolacbmoknlmi)</code>[<img src="github.png" height="18px">](https://github.com/code-for-charity/looper) <code>[**Frame by Frame**](https://chrome.google.com/webstore/detail/frame-by-frame/cclnaabdfgnehogonpeddbgejclcjneh)</code>[<img src="github.png" height="18px">](https://github.com/code-for-charity/frame-by-frame) [`unBlob`](https://chrome.google.com/webstore/detail/unblob-alpha/odognhgojidbcgconbcipmgffjcmfaoj)[<img src="github.png" height="18px">](https://github.com/code-for-charity/unblob "please fix/adopt me!") (<i><del>Equalizer[<img src="github.png" height="18px">](https://github.com/code-for-charity/equalizer)</del></i>)
-<br><b>Home:</b> (Start Page tabs <a href="https://github.com/code-for-charity/start-page"><img src="github.png" height="18px"></a> <i> to be uploaded </i>), [`TextEditor`](https://chrome.google.com/webstore/detail/text-editor/bnbgafdjiinlgnjaedmfaablklnafpka) [<img src="github.png" height="18px">](https://github.com/code-for-charity/Editor), [`ToDo`](https://chrome.google.com/webstore/detail/to-do/mniboiicchcpkffcdlaocnkfpbdihgii)[<img src="github.png" height="18px">](https://github.com/code-for-charity/todo)  
-  **Development:**  [**`Satus`**](https://github.com/code-for-charity/satus) (Our JS library) |  [**`WebGL.js`**](https://github.com/code-for-charity/webgl.js) - WebGL Library | [endless grid](https://github.com/code-for-charity/pluviam), [CodeEditor](https://github.com/code-for-charity/code-editor), [TE](https://github.com/code-for-charity/theme-engine), <del> [Viscum Player](https://github.com/code-for-charity/viscum-player)</del> - video.js?)  <br>
-
----
-
- - All of the above was written by the same author and is meant to be source for growing Satus. <br> (All that's meaningful to repurpose)
-
 <table><tr></tr> <td><pre>/*------------satus.CSS------------
 # SCROLLBAR
 # ANIMATIONS
