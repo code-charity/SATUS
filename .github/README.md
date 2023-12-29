@@ -1,5 +1,6 @@
 <table align="right"><tr><td><h2>Roadmap</h2> <!-- The list below only stays formatted when there is a line break above -->  
- - [ ] **Define Concept /mission** (We don't want to reinvent **any** wheels. If anything exists, it could be **included** upwards compatibly be it a lib, npm, wasm)
+	
+ - [ ] **Define Concept /mission** (We don't want to reinvent wheels). <br> What exists, could be included attempting lasting compatiblity
  - [ ] Advanced GUI <br> (Multirange slider, etc. Making use of desk viewports)  
  - [ ] Real/strong search, probably including 3rd-party JS-lib <br> (for indexedDB, for understanding SQL, ...)
  - [ ] integrating Victor's work (see below)
