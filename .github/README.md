@@ -1,11 +1,10 @@
-<table align="right"><tr><td><h2>Roadmap</h2> <!-- The list below only stays formatted when there is a line break above --> 
-
+<table align="right"><tr><td><h2>Roadmap</h2> <!-- The list below only stays formatted when there is a line break above -->  
+ - [ ] **Define Concept /mission** (We don't want to reinvent **any** wheels. If anything exists, it could be **included** upwards compatibly be it a lib, npm, wasm)
  - [ ] Advanced GUI <br> (Multirange slider, etc. Making use of desk viewports)  
  - [ ] Real/strong search, probably including 3rd-party JS-lib <br> (for indexedDB, for understanding SQL, ...)
- - [ ] We don't want to reinvent **any** wheels. If anything exists <br> (in an efficient JS lib or node npm, it shall be **included**)
-    - [ ] integrating Victor's work (see below)
-  - [ ] Data: Handling json2html2csv2... as one. Interchangeable <br> (CSV is compact, pretty for structured, permanent data)
-    - [ ] integrating with [github.com/d3](https://github.com/d3/d3 )  (=charts/data-journalism) <br> (+justifying our own charting?)
+ - [ ] integrating Victor's work (see below)
+ - [ ] Data: Handling json2html2csv2... as one. Interchangeable <br> (CSV is compact, pretty for structured, permanent data)
+   - [ ] integrating with [github.com/d3](https://github.com/d3/d3 )  (=charts/data-journalism) <br> (+justifying our own charting?)
 
 </tr></td></table> 
 <h1 align=center><img height="80px" alt="Satus Logo" src="https://user-images.githubusercontent.com/25022245/198879210-090216d0-c02e-49b7-9c8d-bd648fa8b39b.png"> <a href="https://github.com/code-for-charity/ImprovedTube-for-YouTube/blob/master/js%26css/satus.js">satus.js</a> & <a href="https://github.com/code-for-charity/ImprovedTube-for-YouTube/blob/master/js%26css/satus.css">satus.css</a></h1>
