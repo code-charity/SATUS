@@ -10,12 +10,12 @@
 </tr></td></table> 
 <h3 align=center><img height="80px" alt="Satus Logo" src="https://user-images.githubusercontent.com/25022245/198879210-090216d0-c02e-49b7-9c8d-bd648fa8b39b.png"> <a href="https://github.com/code-for-charity/ImprovedTube-for-YouTube/blob/master/js%26css/satus.js">satus.js</a> & <a href="https://github.com/code-for-charity/ImprovedTube-for-YouTube/blob/master/js%26css/satus.css">satus.css</a></h3>
 
-- Productive for 600 000+ active users <br>  in a [Youtube Improver](https://github.com/code-charity/youtube) & several Extensions. 
+- Productive for 600 000+ active users <br>  in a [Youtube Improver](https://github.com/code-charity/youtube) 
 - Please try it & review it!
 - Shared Repo yet for [minimalism](https://stackoverflow.com/questions/4611512/is-there-a-way-to-make-git-pull-automatically-update-submodules)
 - We lost the original author after several years.
-- Used by: [Several extensions ](https://github.com/code-charity/youtube#-our-extensions ) 
-     - All of these were written by the same author & meant to be source for growing Satus / repurposing part of their code.
+- Used by [some more extensions](https://github.com/code-charity/youtube#-our-extensions ) 
+     - All of these meant to be source for growing Satus / repurposing part of their code.
 
   <div align="center" ><br> </div>
 <table align="right"><tr></tr><td><pre>
