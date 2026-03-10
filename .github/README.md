@@ -10,7 +10,7 @@
 </tr></td></table> 
 <h3 align=center><img height="80px" alt="Satus Logo" src="https://user-images.githubusercontent.com/25022245/198879210-090216d0-c02e-49b7-9c8d-bd648fa8b39b.png"> <a href="https://github.com/code-for-charity/ImprovedTube-for-YouTube/blob/master/menu/satus.js">satus.js</a> & <a href="https://github.com/code-for-charity/ImprovedTube-for-YouTube/blob/master/menu/satus.css">satus.css</a></h3>
 
-- Productive for many active users <br>  in a [ImprovedTube](https://github.com/code-charity/youtube)  and beyond
+- Productive for many active users <br>  of [ImprovedTube](https://github.com/code-charity/youtube)  and beyond
 - Please try it & review it!
 - Shared Repo yet for [minimalism](https://stackoverflow.com/questions/4611512/is-there-a-way-to-make-git-pull-automatically-update-submodules)
 - We lost the original author after several years.
